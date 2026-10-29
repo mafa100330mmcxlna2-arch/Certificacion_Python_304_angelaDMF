@@ -1,0 +1,12 @@
+numero=int(input("Ingresa un numero del 1 al 10 :"))
+if numero <= 0:
+    print("Tu numero no es correcto")
+elif numero >= 1 and numero <=10:
+    i = 1
+    while i <= 10:
+        resultado = numero * i
+        print(numero, "X" ,i ,"=",resultado)
+        i = i + 1
+else:
+    print("Ese numero no es valido")
+
